@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03394c22-52c0-4d90-be56-2c064b296e3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-interface/src/main/java/com/dandanpili/pojo/UserAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-interface/src/main/java/com/dandanpili/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-interface/src/main/java/com/dandanpili/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service-consumer/src/main/java/com/dandanpili/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-provider/src/main/java/com/dandanpili/service/impl/UserServiceImpl.java" afterDir="false" />
+    <list default="true" id="03394c22-52c0-4d90-be56-2c064b296e3e" name="Default Changelist" comment="user-service-provider可以提供服务">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-order-service-consumer/src/main/java/com/dnadanpili/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-user-service-provider/src/main/java/com/dandanpili/gmall/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-consumer/src/main/java/com/dandanpili/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service-consumer/src/main/resources/consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service-provider/userserviceprovider.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service-consumer/src/main/java/com/dandanpili/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service-consumer/src/main/java/com/dandanpili/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-provider/src/main/java/com/dandanpili/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-provider/src/main/java/com/dandanpili/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service-provider/src/main/resources/provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-provider/src/main/resources/provider.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -48,23 +49,30 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gmall-interface/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.1472754" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="dandanpili.service" />
-      <recent name="com.dandanpili.service.pojo" />
-      <recent name="com.dandanpili.service" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IDEA-Git-Repository\dubbo-project\gmall-interface\src\main\java" />
       <recent name="E:\IDEA-Git-Repository\dubbo-project\user-service-provider\src\main\java" />
       <recent name="E:\IDEA-Git-Repository\dubbo-project\order-service-consumer\src\main\java" />
       <recent name="E:\IDEA-Git-Repository\dubbo-project\user-service-provider\src\main\java\com\dandanpili\pojo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dnadanpili.impl" />
+      <recent name="com.dandanpili.gmall.impl" />
+      <recent name="dandanpili.service" />
+      <recent name="com.dandanpili.service.pojo" />
+      <recent name="com.dandanpili.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEA-Git-Repository\dubbo-project\user-service-provider\src\main\resources" />
+      <recent name="E:\IDEA-Git-Repository\dubbo-project\user-service-provider\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -79,6 +87,61 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.MainApplication (1)">
+    <configuration name="MainApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dandanpili.MainApplication" />
+      <module name="order-service-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dandanpili.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dandanpili.MainApplication" />
+      <module name="user-service-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dandanpili.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootOrderServiceConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="boot-order-service-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dnadanpili.BootOrderServiceConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootOrderServiceConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="boot-order-service-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dandanpili.BootOrderServiceConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootUserServiceProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="boot-user-service-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dandanpili.gmall.BootUserServiceProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainApplication (1)" />
+        <item itemvalue="Application.MainApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -89,8 +152,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614695830926</updated>
-      <workItem from="1614695833159" duration="3379000" />
+      <workItem from="1614695833159" duration="3655000" />
+      <workItem from="1614868111273" duration="4306000" />
+      <workItem from="1615041447224" duration="123000" />
+      <workItem from="1615041595227" duration="454000" />
+      <workItem from="1615042062518" duration="1169000" />
+      <workItem from="1615107930022" duration="6385000" />
+      <workItem from="1615277297656" duration="504000" />
+      <workItem from="1615277996835" duration="2454000" />
     </task>
+    <task id="LOCAL-00001" summary="对功能进行了划分">
+      <created>1614699389555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614699389555</updated>
+    </task>
+    <task id="LOCAL-00002" summary="user-service-provider可以提供服务">
+      <created>1614871936155</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614871936155</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,10 +186,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="对功能进行了划分" />
+    <MESSAGE value="user-service-provider可以提供服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="user-service-provider可以提供服务" />
   </component>
 </project>
